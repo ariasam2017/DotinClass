@@ -6,7 +6,7 @@ public class MainApp3 {
         System.out.println(avg(numbers));
 
     }
-    public static int avg(int[] numbers) {
+    public static int avg(int[] numbers) {  //Average For Loop
         int sum = 0;
         for (int i=0; i<numbers.length; i++) {
             sum+=numbers[i];
